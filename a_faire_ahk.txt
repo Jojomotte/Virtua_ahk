@@ -1,0 +1,71 @@
+﻿;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;A FAIRE
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;sélectionner avec ctrl a ds Virtua 
+;automatiser création exemplaire
+;automatisation préparation expo (Excel)
+    ; directement copier la 245, la cote et l'année dans un fichier Excel, si le livre est intéressant pour l'expo.
+    ; récupérer automatique le statut d'une liste de livre à partir de la cote depuis une liste excel.
+;automatisation profil Zundel ou autres
+;ajout automatique de 049 avec 008 suisse
+;gestion de la liste des url à corriger
+;if cote chez dext dépôt "Dext 24h", (BPUN NUM,BPUN 22R) autres cas semblables 
+;profil pour que sais-je (désherbage FE) -> faire la liste des use case courants
+;vérifier automatiquement si il y a une cote à réutiliser
+
+;édition de ses propres raccourcis zone + texte avec une GUI
+; attribuer des raccourci claviert à des grilles (use case) pröformatö, accompagnö de la notice d'ex.
+
+;enlever les bars au démarrage de Virtua + mettre la fenêtre vers la droite + changer la loc par FE magasin avec windows flèche gauche, lancer outlook, firefox
+
+
+
+;vérifier si exemplaire est bien en acquisitions réservable
+
+
+; Transfert LP-FE: Neocomensia ou non; Supprimer la 984 (cdu-nebpup); Supprimer la localisation LP s’il n’y a plus d’ex. LP, Ajouter la localisation FE, Créer exemplaire FE modifier 994 $a BPUN FP … $x ne/bpup/a/2145/1998  [BPUP R BACI pou transféré en 2016], !!! Seules les sous-zones $a et $x sont acceptées dans la 994, Supprimer les autres si nécessaires.
+; Changer Dépôt FE magasin, Générer nouvelle cote et copier la cote précédente, code PAC 3, 
+
+;{Tab 2}[enter}{Tab 4}{Up 10}{Tab 14}
+;insert "BPUN", Wait insertion manuelle de la nouvelle cote, {tab 4} vérifier que le PAC est bien à 3, {tab 2}{enter}
+;{enter}{Tab 2}{enter}{Tab 18}""copier la cote""{Alt down}{e}{n}{tab 7}{enter}
+;if 984 (cdu-nebpup) supprimer OU envoyer un message
+;if nebpup dans 962 supprimer (seulement si plus d'ex. LP); ajouter nebpun
+;994 ""copier cote BPUP"", inséer au début cote BPUN. insérer à la fin /s/[%coteBPUP% transféré en %année%]
+;vérifier si existe autre $ que $a ou $x si oui, envoyer un MsgBox
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+																																				
